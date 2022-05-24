@@ -1,0 +1,21 @@
+<DialogueTree>
+  <Dialogue id="0">
+    <Text>My name is Jeff.</Text>
+    <Choice id="1" selected="false">Good name.</Choice>
+  </Dialogue>
+
+  <Dialogue id="1">
+    <Text id="2">Thanks. Is your Science skill high?</Text>
+  </Dialogue>
+
+  <Dialogue id="2">
+      <Choice id="goodbye">
+        <Conditions science="6"></Conditions> My Science skill is at least 6 points.
+      </Choice>
+    <Choice id="goodbye">I don't think my Science skill is high enough.</Choice>
+  </Dialogue>
+
+  <Dialogue id="goodbye">
+    <Text>So long, Jeff.</Text>
+  </Dialogue>
+</DialogueTree>

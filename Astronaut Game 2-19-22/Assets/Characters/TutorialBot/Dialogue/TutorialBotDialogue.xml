@@ -1,0 +1,81 @@
+<DialogueTree>
+  <Dialogue id="0">
+    <Text>Hello there! How are you?</Text>
+    <Choice id="1" selected="false">I'm well, thank you.</Choice>
+    <Choice id="2" selected="false">Meh, been better.</Choice>
+    <Choice id="3" selected="false">I'm grumpy.</Choice>
+  </Dialogue>
+  
+  <Dialogue id="1">
+    <Text id="4">That's great! Glad to hear it!</Text>
+  </Dialogue>
+
+  <Dialogue id="2">
+    <Text id="4">I'm sorry to hear that.</Text>
+  </Dialogue>
+
+  <Dialogue id="3">
+    <Text id="pill">Take this happy pill.</Text>
+  </Dialogue>
+
+  <Dialogue id="pill">
+    <Choice id="pill2">Thanks for the pill.</Choice>
+  </Dialogue>
+
+  <Dialogue id="pill2">
+    <Text id="4">Don't mention it.</Text>
+  </Dialogue>
+
+  <Dialogue id="4">
+    <Choice id="5">So, who are you anyway?</Choice>
+  </Dialogue>
+
+  <Dialogue id="5">
+    <Text id="6">I'm the tutorial bot.</Text>
+  </Dialogue>
+  
+  <Dialogue id="6">
+    <Choice id="7">What's your favorite color?</Choice>
+    <Choice id="8">How long have you been here?</Choice>
+    <Choice id="9">What is your purpose?</Choice>
+    <Choice id="goodbye">So long, Tutorial Bot.</Choice>
+  </Dialogue>
+
+  <Dialogue id="7">
+    <Text id="10">Red.</Text>
+  </Dialogue>
+
+  <Dialogue id="10">
+    <Choice id="13">Mine is green.</Choice>
+    <Choice id="13">Mine is yellow.</Choice>
+    <Choice id="13">Mine is blue.</Choice>
+    <Choice id="13">Mine is purple.</Choice>
+    <Choice id="13" selected="false">Mine is orange.</Choice>
+    <Choice id="13">Mine is brown.</Choice>
+    <Choice id="13">Mine is gray.</Choice>
+    <Choice id="red">Mine is red.</Choice>
+    <Choice id="13">Mine is black.</Choice>
+    <Choice id="13">Mine is white.</Choice>
+    <Choice id="13">Mine is pink.</Choice>
+  </Dialogue>
+
+  <Dialogue id="red">
+    <Text id="6">Red? Amazing!.</Text>
+  </Dialogue>
+
+  <Dialogue id="13">
+    <Text id="6">Interesting color choice. Anything else?</Text>
+  </Dialogue>
+
+  <Dialogue id="8">
+    <Text id="6">Too long. Anything else?</Text>
+  </Dialogue>
+
+  <Dialogue id="9">
+    <Text id="6">To show off a working dialogue tree. Anything else?</Text>
+  </Dialogue>
+
+  <Dialogue id="goodbye">
+    <Text>So long.</Text>
+  </Dialogue>
+</DialogueTree>
